@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MoGo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,101 +16,111 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body>
-    <header>
-      <p>MoGo</p>
-      <nav>
-        <ul>
-          <li>ABOUT</li>
-          <li>SERVICE</li>
-          <li>WORK</li>
-          <li>BLOG</li>
-          <li>CONTACT</li>
-        </ul>
-      </nav>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <p class="logo"><a href="index.html" class="link logo-link">MoGo</a></p>
+        <nav class="nav">
+          <ul class="list nav-list">
+            <li class="nav-list-item">ABOUT</li>
+            <li class="nav-list-item">SERVICE</li>
+            <li class="nav-list-item">WORK</li>
+            <li class="nav-list-item">BLOG</li>
+            <li class="nav-list-item">CONTACT</li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
-      <p>We work with</p>
-      <h2>Amazing Services</h2>
-      <ul>
-        <li>
-          <h3>photography</h3>
-          <p>
+    <main class="main">
+      <section class="hero">
+        <div class="container">
+          <p class="hero-headline">We work with</p>
+          <h2 class="hero-title">Amazing Services</h2>
+          <ul class="list hero-list">
+            <li class="hero-item">
+              <h3 class="hero-item-title">photography</h3>
+              <p class="hero-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </li>
+            <li class="hero-item">
+              <h3 class="hero-item-title">photography</h3>
+              <p class="hero-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </li>
+            <li class="hero-item">
+              <h3 class="hero-item-title">photography</h3>
+              <p class="hero-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </li>
+            <li class="hero-item">
+              <h3 class="hero-item-title">photography</h3>
+              <p class="hero-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </li>
+            <li class="hero-item">
+              <h3 class="hero-item-title">photography</h3>
+              <p class="hero-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </li>
+            <li class="hero-item">
+              <h3 class="hero-item-title">photography</h3>
+              <p class="hero-item-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="team">
+        <div class="container">
+          <p class="team-headline">Who we are</p>
+          <h2 class="team-title">Meet our team</h2>
+          <p class="team-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+            minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
           </p>
-        </li>
-        <li>
-          <h3>photography</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
-          </p>
-        </li>
-        <li>
-          <h3>photography</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
-          </p>
-        </li>
-        <li>
-          <h3>photography</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
-          </p>
-        </li>
-        <li>
-          <h3>photography</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
-          </p>
-        </li>
-        <li>
-          <h3>photography</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor.
-          </p>
-        </li>
-      </ul>
-      <section>
-        <p>Who we are</p>
-        <h2>Meet our team</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
-        </p>
-        <ul>
-          <li>
-            <img src="./images/worker_img1.jpg" alt="Matthew Dix" />
-            <h3>Matthew Dix</h3>
-            <p>Graphic Design</p>
-          </li>
-          <li>
-            <img src="./images/worker_img2.jpg" alt="Christopher Campbell" />
-            <h3>Christopher Campbell</h3>
-            <p>Branding/UX design</p>
-          </li>
-          <li>
-            <img src="./images/worker_img3.jpg" alt="Michael Fertig " />
-            <h3>Michael Fertig</h3>
-            <p>Developer</p>
-          </li>
-        </ul>
+          <ul class="list team-list">
+            <li class="team-item">
+              <img src="./images/worker_img1.jpg" alt="Matthew Dix" class="team-img"/>
+              <h3 class="team-item-title">Matthew Dix</h3>
+              <p class="team-item-text">Graphic Design</p>
+            </li>
+            <li class="team-item">
+              <img src="./images/worker_img2.jpg" alt="Christopher Campbell" class="team-img" />
+              <h3 class="team-item-title">Christopher Campbell</h3>
+              <p class="team-item-text">Branding/UX design</p>
+            </li>
+            <li class="team-item">
+              <img src="./images/worker_img3.jpg" alt="Michael Fertig " class="team-img" />
+              <h3 class="team-item-title">Michael Fertig</h3>
+              <p class="team-item-text">Developer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
-    <footer>
-      <hr />
-      <p>&#169; 2016 MoGo free PSD template by Laaqiq</p>
-      <form>
-        <input type="email" placeholder="Your Email..." />
-        <button type="submit">Subscribe</button>
-      </form>
+    <footer class="footer">
+      <hr class="line"/>
+      <div class="container">
+        <p class="copyright">&#169; 2016 MoGo free PSD template by Laaqiq</p>
+        <form class="form">
+          <input type="email" class="input" placeholder="Your Email..." />
+          <button type="submit" class="button">Subscribe</button>
+        </form>
+      </div>
     </footer>
   </body>
 </html>
