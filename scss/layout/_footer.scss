@@ -1,0 +1,34 @@
+.footer > .container {
+  display: flex;
+}
+.footer__copyright {
+  color: $text-color;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  line-height: normal;
+  margin-right: 523px;
+}
+.footer__form {
+  display: flex;
+}
+.footer__input {
+  color: $add-color;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  width: 230px;
+  height: 39px;
+}
+.footer__button {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: normal;
+  font-variant: all-small-caps;
+  background: var(--main-color);
+  width: 150px;
+  height: 40px;
+  border-color: var(--main-color);
+}
